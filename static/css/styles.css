@@ -1,4 +1,4 @@
-/* =========================================================
+/* =========================================================--font-size-smaller
    VARIABLES
    ========================================================= */
 :root {
@@ -7,8 +7,9 @@
   --color-highlight:  #bafff5;
   --color-lowlight:   #496580;
 
-  --font-size:        40px;
-  --font-size-smaller:30px;
+  --font-size-large:  40px;
+  --font-size-medium: 30px;
+  --font-size-small:  20px;
 
   --ui-margins:       1% 0 1% 0;
   --rounded-corners:  15px;
@@ -23,7 +24,7 @@ html, body {
   margin: 0;
   overflow-x: hidden;     /* horizontal overflow guard */
   min-width: 700px;
-  font-size: var(--font-size);
+  font-size: var(--font-size-medium);
   background-color: var(--color-primary);
 }
 
@@ -62,17 +63,19 @@ html, body {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 85%;
+  height: 90%;
 }
 
 #map {
   width: 100%;
   height: 100%;
+
+  font-size: var(--font-size-small);
 }
 
 .display-panel {
   width: 100%;
-  height: 15%;
+  height: 10%;
   overflow: auto;
   align-items: center;
   background-color: var(--color-primary);
@@ -81,7 +84,7 @@ html, body {
 .display-panel-text,
 .score-row {
   margin: 0;
-  font-size: var(--font-size-smaller);
+  font-size: var(--font-size-small);
 }
 
 .data-panel {
@@ -244,15 +247,16 @@ html, body {
 .value-input {
   width: 95%;
   text-align: center;
-  font-size: var(--font-size);
+  font-size: var(--font-size-medium);
 }
 
 .full-btn {
   height: 90%;
   width: 90%;
   min-height: fit-content;
+  min-width: fit-content;
 
-  font-size: var(--font-size);
+  font-size: var(--font-size-medium);
   border: 0;
   padding: 0;
 
@@ -284,37 +288,19 @@ button:hover,
    RESPONSIVE
    ========================================================= */
 @media screen and (max-width: 1600px) {
-  .main-panel {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .map-panel {
-    width: 100%;
-    height: 50%;
-  }
-
-  .data-panel {
-    width: 100%;
-    height: 50%;
-    flex-direction: row;
-    overflow: hidden;
-  }
-
   .elements-panel,
   .preference-panel {
     flex: 1 1 50%;
     min-height: 0;
     max-height: none;
     overflow-y: auto;
-    width: 50%;
   }
   
   .sub-data-panel {
     flex: 1 0 50%;
     min-height: 0;
-    overflow: hidden;
-    width: 50%;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .preference-bar { flex-direction: column-reverse; }
@@ -330,7 +316,7 @@ button:hover,
 
   .control-panel {
     flex-direction: column;
-    height: 45%;
+    height: fit-content;
   }
 
   .stats-panel { 
@@ -339,7 +325,7 @@ button:hover,
   }
 
   .stat-card {
-    width: 100%;
+    width: 90%;
     min-height: 14%;
     flex-direction: row;
   }
@@ -384,6 +370,6 @@ button:hover,
   .full-btn,
   .display-panel-text,
   .score-row {
-    font-size: var(--font-size-smaller);
+    font-size: var(--font-size-medium);
   }
 }
