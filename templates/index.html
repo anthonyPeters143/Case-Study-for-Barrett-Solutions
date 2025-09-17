@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <!-- Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+</head>
+<body>
+    <div class="main-panel">
+
+        <!-- Map -->
+        <div class="map-panel">
+            <div class="map-containter">
+                <div id="map"></div>
+            </div>
+
+            <div class="display-panel">
+                        
+                <!-- Instructions -->
+                <div class="instructions-panel">
+                    <p class="display-panel-text"><strong>Pick a location:</strong> Double–click to drop the center. Drag to pan the map.</p>
+                    <p class="display-panel-text"><strong>Set a radius (yards):</strong> Use the radius input or drag the circle’s edge.</p>
+                    <p class="display-panel-text"><strong>Toggle layers:</strong> Click the colored stat cards to show/hide map layers (Air, Crime, Rent, School, Transit).</p>
+                    <p class="display-panel-text"><strong>Element/Preferences:</strong> Click Preferences to mark each element type as Good, Bad, or Neutral.</p>
+                    <p class="display-panel-text"><strong>Generate score:</strong> Click Generate Habitability Score to compute a 0–100 score for the selected area.</p>    
+                </div>
+
+                <!-- Hab score -->
+                <div class="hab-score-panel hidden"></div>
+
+            </div>
+        </div>
+
+        <!-- Data and controls -->
+        <div class="data-panel">
+
+            <!-- Element bars -->
+            <div class="elements-panel">
+                <!-- Add element bars here -->
+            </div>
+
+            <!-- Preference bars -->
+            <div class="preference-panel hidden">
+                <!-- Add preference bars here -->
+            </div>
+
+            <div class="sub-data-panel">
+                <div class="control-panel">
+                    <form class="input-panel" id="coordinate-form">
+                        <div class="lat-long-input-panel">
+                            <div class="type-1-input-panel">
+                                <!-- Lat input -->
+                                <label>Latitude</label>
+                                <input type="text" class="value-input" id="latitude-input" placeholder="XXX.XXXXXX"></text>
+
+                            </div>
+                            <div class="type-1-input-panel">
+                                <!-- Long input -->
+                                <label>Longitude</label>
+                                <input type="text" class="value-input" id="longitude-input" placeholder="XXX.XXXXXX">
+
+                            </div>
+                        </div>
+                        <div class="rad-pref-input-panel">
+                            <div class="type-2-input-panel">
+                                <label>Radius (yd)</label>
+                                <input type="text" class="value-input" id="radius-input" placeholder="XXX.XX">
+                            </div>
+                            <div class="type-2-input-panel">
+                                <button class="full-btn" id="btn-preference">Preferences</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="gen-button-panel">
+                        <button class="full-btn" id="btn-generate">Generate Habitability Score</button>
+                    </div>
+                </div>
+                <div class="stats-panel">
+                    <div class="stat-card stats highlight" id="air_quality_index">
+                        <div class="stat-label">Air Quality</div>
+                        <div class="hidden" id="air_quality_index_value"></div>
+                    </div>
+                    <div class="stat-card stats highlight" id="crime_rate">
+                        <div class="stat-label">Crime Rate</div>
+                        <div class="hidden" id="crime_rate_value">XXXX</div>
+                    </div>
+                    <div class="stat-card stats highlight" id="median_rent">
+                        <div class="stat-label">Median Rent</div>
+                        <div class="hidden" id="median_rent_value">XXXX</div>
+                    </div>
+                    <div class="stat-card stats highlight" id="school_quality">
+                        <div class="stat-label">School Quality</div>
+                        <div class="hidden" id="school_quality_value">XXXX</div>
+                    </div>
+                    <div class="stat-card stats highlight" id="transit_access">
+                        <div class="stat-label">Transit Access (closest)</div>
+                        <div class="hidden" id="transit_access_value">XXXX</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripting -->
+    <script type="module" src="static/js/main.js"></script>
+
+</body>
+</html>

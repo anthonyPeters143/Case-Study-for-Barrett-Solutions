@@ -1,0 +1,143 @@
+[
+  {
+    "address": "1 Central Park West, New York, NY",
+    "latitude": 40.771133,
+    "longitude": -73.974187
+  },
+  {
+    "address": "350 5th Ave, New York, NY",
+    "latitude": 40.748817,
+    "longitude": -73.985428
+  },
+  {
+    "address": "405 Lexington Ave, New York, NY",
+    "latitude": 40.751652,
+    "longitude": -73.975311
+  },
+  {
+    "address": "200 W 57th St, New York, NY",
+    "latitude": 40.765125,
+    "longitude": -73.980985
+  },
+  {
+    "address": "11 Wall St, New York, NY",
+    "latitude": 40.707491,
+    "longitude": -74.011276
+  },
+  {
+    "address": "30 Rockefeller Plaza, New York, NY",
+    "latitude": 40.75874,
+    "longitude": -73.978674
+  },
+  {
+    "address": "233 Broadway, New York, NY",
+    "latitude": 40.712775,
+    "longitude": -74.005973
+  },
+  {
+    "address": "405 Park Ave, New York, NY",
+    "latitude": 40.756574,
+    "longitude": -73.972199
+  },
+
+  {
+    "address": "200 Park Ave, New York, NY",
+    "latitude": 40.754932,
+    "longitude": -73.977101
+  },
+  {
+    "address": "1 Liberty St, New York, NY",
+    "latitude": 40.709,
+    "longitude": -74.01312
+  },
+  {
+    "address": "150 E 42nd St, New York, NY",
+    "latitude": 40.752726,
+    "longitude": -73.975571
+  },
+  {
+    "address": "120 Broadway, New York, NY",
+    "latitude": 40.707361,
+    "longitude": -74.010474
+  },
+  {
+    "address": "50 W 34th St, New York, NY",
+    "latitude": 40.750504,
+    "longitude": -73.989417
+  },
+  {
+    "address": "123 E 79th St, New York, NY",
+    "latitude": 40.776543,
+    "longitude": -73.961234
+  },
+  {
+    "address": "456 W 23rd St, New York, NY",
+    "latitude": 40.742876,
+    "longitude": -74.001234
+  },
+  {
+    "address": "789 Park Ave, New York, NY",
+    "latitude": 40.773456,
+    "longitude": -73.965789
+  },
+  {
+    "address": "321 E 14th St, New York, NY",
+    "latitude": 40.732145,
+    "longitude": -73.984567
+  },
+  {
+    "address": "654 Broadway, New York, NY",
+    "latitude": 40.725678,
+    "longitude": -73.996234
+  },
+  {
+    "address": "987 2nd Ave, New York, NY",
+    "latitude": 40.756789,
+    "longitude": -73.970123
+  },
+  {
+    "address": "147 Bleecker St, New York, NY",
+    "latitude": 40.728901,
+    "longitude": -73.999456
+  },
+  {
+    "address": "369 W 46th St, New York, NY",
+    "latitude": 40.759567,
+    "longitude": -73.988901
+  },
+  {
+    "address": "741 Madison Ave, New York, NY",
+    "latitude": 40.768234,
+    "longitude": -73.96789
+  },
+  {
+    "address": "852 6th Ave, New York, NY",
+    "latitude": 40.753678,
+    "longitude": -73.989234
+  },
+  {
+    "address": "963 Lexington Ave, New York, NY",
+    "latitude": 40.772345,
+    "longitude": -73.963567
+  },
+  {
+    "address": "159 Chambers St, New York, NY",
+    "latitude": 40.715678,
+    "longitude": -74.008901
+  },
+  {
+    "address": "267 Elizabeth St, New York, NY",
+    "latitude": 40.722901,
+    "longitude": -73.992345
+  },
+  {
+    "address": "378 Grand St, New York, NY",
+    "latitude": 40.718234,
+    "longitude": -73.995678
+  },
+  {
+    "address": "485 Greenwich St, New York, NY",
+    "latitude": 40.725567,
+    "longitude": -74.007234
+  }
+]

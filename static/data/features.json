@@ -1,0 +1,818 @@
+[
+  {
+    "name": "Central Park",
+    "type": "park",
+    "latitude": 40.785091,
+    "longitude": -73.968285
+  },
+  {
+    "name": "Riverside Park",
+    "type": "park",
+    "latitude": 40.800679,
+    "longitude": -73.970215
+  },
+  {
+    "name": "Bryant Park",
+    "type": "park",
+    "latitude": 40.753597,
+    "longitude": -73.983233
+  },
+  {
+    "name": "Madison Square Park",
+    "type": "park",
+    "latitude": 40.742503,
+    "longitude": -73.988135
+  },
+  {
+    "name": "Union Square Park",
+    "type": "park",
+    "latitude": 40.735863,
+    "longitude": -73.991084
+  },
+  {
+    "name": "Battery Park",
+    "type": "park",
+    "latitude": 40.703277,
+    "longitude": -74.017028
+  },
+  {
+    "name": "Washington Square Park",
+    "type": "park",
+    "latitude": 40.730823,
+    "longitude": -73.997332
+  },
+  {
+    "name": "Tompkins Square Park",
+    "type": "park",
+    "latitude": 40.726477,
+    "longitude": -73.982917
+  },
+  {
+    "name": "Prospect Park",
+    "type": "park",
+    "latitude": 40.660204,
+    "longitude": -73.968956
+  },
+  {
+    "name": "McCarren Park",
+    "type": "park",
+    "latitude": 40.721622,
+    "longitude": -73.951595
+  },
+  {
+    "name": "J.J. Byrne Playground",
+    "type": "park",
+    "latitude": 40.673782,
+    "longitude": -73.981381
+  },
+  {
+    "name": "Luther Gulick Playground",
+    "type": "park",
+    "latitude": 40.714287,
+    "longitude": -73.986818
+  },
+  {
+    "name": "Whole Foods Market Chelsea",
+    "type": "grocery",
+    "latitude": 40.742114,
+    "longitude": -74.008789
+  },
+  {
+    "name": "Whole Foods Market Columbus Circle",
+    "type": "grocery",
+    "latitude": 40.76837,
+    "longitude": -73.982293
+  },
+  {
+    "name": "Whole Foods Market Tribeca",
+    "type": "grocery",
+    "latitude": 40.719321,
+    "longitude": -74.009171
+  },
+  {
+    "name": "Trader Joe's Union Square",
+    "type": "grocery",
+    "latitude": 40.735744,
+    "longitude": -73.990967
+  },
+  {
+    "name": "Trader Joe's Upper West",
+    "type": "grocery",
+    "latitude": 40.775744,
+    "longitude": -73.980967
+  },
+  {
+    "name": "Trader Joe's Brooklyn",
+    "type": "grocery",
+    "latitude": 40.687118,
+    "longitude": -73.985191
+  },
+  {
+    "name": "Fairway Market Chelsea",
+    "type": "grocery",
+    "latitude": 40.744489,
+    "longitude": -73.998398
+  },
+  {
+    "name": "Gristedes Upper East",
+    "type": "grocery",
+    "latitude": 40.773521,
+    "longitude": -73.961234
+  },
+  {
+    "name": "Morton Williams Midtown",
+    "type": "grocery",
+    "latitude": 40.754123,
+    "longitude": -73.976543
+  },
+  {
+    "name": "PS 58 Manhattan",
+    "type": "school",
+    "latitude": 40.675945,
+    "longitude": -73.982677
+  },
+  {
+    "name": "PS 199",
+    "type": "school",
+    "latitude": 40.778638,
+    "longitude": -73.982698
+  },
+  {
+    "name": "PS 234",
+    "type": "school",
+    "latitude": 40.717227,
+    "longitude": -74.011452
+  },
+  {
+    "name": "PS 321",
+    "type": "school",
+    "latitude": 40.672669,
+    "longitude": -73.978987
+  },
+  {
+    "name": "Stuyvesant High School",
+    "type": "school",
+    "latitude": 40.717892,
+    "longitude": -74.013114
+  },
+  {
+    "name": "Brooklyn Technical High School",
+    "type": "school",
+    "latitude": 40.688934,
+    "longitude": -73.976972
+  },
+  {
+    "name": "P.S. 6 Lillie Devereaux Blake School",
+    "type": "school",
+    "latitude": 40.778423,
+    "longitude": -73.958792
+  },
+  {
+    "name": "PS 154 Brooklyn",
+    "type": "school",
+    "latitude": 40.679641,
+    "longitude": -73.978214
+  },
+  {
+    "name": "Hunter College Elementary",
+    "type": "school",
+    "latitude": 40.768901,
+    "longitude": -73.965432
+  },
+  {
+    "name": "Trinity School",
+    "type": "school",
+    "latitude": 40.781234,
+    "longitude": -73.971567
+  },
+  {
+    "name": "CityMD 14th St",
+    "type": "healthcare",
+    "latitude": 40.736789,
+    "longitude": -73.995533
+  },
+  {
+    "name": "CityMD Union Square",
+    "type": "healthcare",
+    "latitude": 40.736088,
+    "longitude": -73.990452
+  },
+  {
+    "name": "Mount Sinai Hospital",
+    "type": "hospital",
+    "latitude": 40.790086,
+    "longitude": -73.953239
+  },
+  {
+    "name": "Lenox Hill Hospital",
+    "type": "hospital",
+    "latitude": 40.773564,
+    "longitude": -73.960882
+  },
+  {
+    "name": "Bellevue Hospital Center",
+    "type": "hospital",
+    "latitude": 40.738859,
+    "longitude": -73.975531
+  },
+  {
+    "name": "NYU Langone Health",
+    "type": "hospital",
+    "latitude": 40.742682,
+    "longitude": -73.974187
+  },
+  {
+    "name": "NewYork-Presbyterian Lower Manhattan",
+    "type": "hospital",
+    "latitude": 40.711566,
+    "longitude": -74.008929
+  },
+  {
+    "name": "Columbia Doctors Midtown",
+    "type": "clinic",
+    "latitude": 40.756521,
+    "longitude": -73.979094
+  },
+  {
+    "name": "Duane Reade Times Square",
+    "type": "pharmacy",
+    "latitude": 40.758123,
+    "longitude": -73.985678
+  },
+  {
+    "name": "CVS Pharmacy Union Square",
+    "type": "pharmacy",
+    "latitude": 40.736456,
+    "longitude": -73.991234
+  },
+  {
+    "name": "Rite Aid Upper East Side",
+    "type": "pharmacy",
+    "latitude": 40.774567,
+    "longitude": -73.963789
+  },
+  {
+    "name": "Hamilton Fish Recreation Center",
+    "type": "community_center",
+    "latitude": 40.719779,
+    "longitude": -73.985448
+  },
+  {
+    "name": "Hudson Guild Center",
+    "type": "community_center",
+    "latitude": 40.748779,
+    "longitude": -74.004411
+  },
+  {
+    "name": "Brooklyn Community Centers",
+    "type": "community_center",
+    "latitude": 40.692127,
+    "longitude": -73.98365
+  },
+  {
+    "name": "Mid-Manhattan Library",
+    "type": "library",
+    "latitude": 40.752659,
+    "longitude": -73.981933
+  },
+  {
+    "name": "Grand Central Library",
+    "type": "library",
+    "latitude": 40.752882,
+    "longitude": -73.981778
+  },
+  {
+    "name": "Columbus Library",
+    "type": "library",
+    "latitude": 40.768238,
+    "longitude": -73.982518
+  },
+  {
+    "name": "Brooklyn Heights Library",
+    "type": "library",
+    "latitude": 40.694337,
+    "longitude": -73.991806
+  },
+  {
+    "name": "Science, Industry and Business Library",
+    "type": "library",
+    "latitude": 40.751292,
+    "longitude": -73.981556
+  },
+  {
+    "name": "Metropolitan Museum of Art",
+    "type": "museum",
+    "latitude": 40.779436,
+    "longitude": -73.963244
+  },
+  {
+    "name": "American Museum of Natural History",
+    "type": "museum",
+    "latitude": 40.781324,
+    "longitude": -73.973988
+  },
+  {
+    "name": "Museum of Modern Art",
+    "type": "museum",
+    "latitude": 40.761433,
+    "longitude": -73.977622
+  },
+  {
+    "name": "New Museum",
+    "type": "museum",
+    "latitude": 40.72236,
+    "longitude": -73.992564
+  },
+  {
+    "name": "NY Historical Society",
+    "type": "museum",
+    "latitude": 40.779437,
+    "longitude": -73.973329
+  },
+  {
+    "name": "Solomon R. Guggenheim Museum",
+    "type": "museum",
+    "latitude": 40.78298,
+    "longitude": -73.958971
+  },
+  {
+    "name": "St. Patrick's Cathedral",
+    "type": "place_of_worship",
+    "latitude": 40.758465,
+    "longitude": -73.975993
+  },
+  {
+    "name": "Central Synagogue",
+    "type": "place_of_worship",
+    "latitude": 40.759679,
+    "longitude": -73.970116
+  },
+  {
+    "name": "Park Avenue Christian Church",
+    "type": "place_of_worship",
+    "latitude": 40.783867,
+    "longitude": -73.957728
+  },
+  {
+    "name": "Brooklyn Tabernacle",
+    "type": "place_of_worship",
+    "latitude": 40.689467,
+    "longitude": -73.984396
+  },
+  {
+    "name": "Bloomingdale's",
+    "type": "shopping",
+    "latitude": 40.762524,
+    "longitude": -73.967967
+  },
+  {
+    "name": "Macy's Herald Square",
+    "type": "shopping",
+    "latitude": 40.750802,
+    "longitude": -73.989743
+  },
+  {
+    "name": "Apple Store Fifth Avenue",
+    "type": "shopping",
+    "latitude": 40.763641,
+    "longitude": -73.97297
+  },
+  {
+    "name": "Union Square Greenmarket",
+    "type": "shopping",
+    "latitude": 40.736103,
+    "longitude": -73.990432
+  },
+  {
+    "name": "Century 21",
+    "type": "shopping",
+    "latitude": 40.711234,
+    "longitude": -74.008567
+  },
+  {
+    "name": "Chelsea Piers Sports",
+    "type": "recreation",
+    "latitude": 40.746269,
+    "longitude": -74.008681
+  },
+  {
+    "name": "Skyline Tennis",
+    "type": "recreation",
+    "latitude": 40.759026,
+    "longitude": -73.986712
+  },
+  {
+    "name": "Midtown Tennis Center",
+    "type": "recreation",
+    "latitude": 40.750625,
+    "longitude": -74.004489
+  },
+  {
+    "name": "Rockefeller Rink",
+    "type": "recreation",
+    "latitude": 40.75874,
+    "longitude": -73.978674
+  },
+  {
+    "name": "Equinox Gym West 50th",
+    "type": "gym",
+    "latitude": 40.764745,
+    "longitude": -73.984503
+  },
+  {
+    "name": "Fitness Park South",
+    "type": "gym",
+    "latitude": 40.729845,
+    "longitude": -73.991758
+  },
+  {
+    "name": "Blink Fitness Upper East",
+    "type": "gym",
+    "latitude": 40.774134,
+    "longitude": -73.95514
+  },
+  {
+    "name": "Planet Fitness Chelsea",
+    "type": "gym",
+    "latitude": 40.743567,
+    "longitude": -74.001234
+  },
+  {
+    "name": "Citi Bike Dock Riverside",
+    "type": "bike_station",
+    "latitude": 40.79751,
+    "longitude": -73.971244
+  },
+  {
+    "name": "Citi Bike Dock Herald Sq",
+    "type": "bike_station",
+    "latitude": 40.750373,
+    "longitude": -73.988484
+  },
+  {
+    "name": "Citi Bike Dock Union Square",
+    "type": "bike_station",
+    "latitude": 40.735891,
+    "longitude": -73.991023
+  },
+  {
+    "name": "1st Ave Ferry Terminal",
+    "type": "ferry_terminal",
+    "latitude": 40.737732,
+    "longitude": -73.97269
+  },
+  {
+    "name": "Wall Street Ferry",
+    "type": "ferry_terminal",
+    "latitude": 40.703554,
+    "longitude": -74.011899
+  },
+  {
+    "name": "NYC Fire Station 26",
+    "type": "fire_station",
+    "latitude": 40.766134,
+    "longitude": -73.986723
+  },
+  {
+    "name": "NYPD Midtown South",
+    "type": "police_station",
+    "latitude": 40.755736,
+    "longitude": -73.993532
+  },
+  {
+    "name": "NYPD 1st Precinct",
+    "type": "police_station",
+    "latitude": 40.712345,
+    "longitude": -74.00789
+  },
+  {
+    "name": "Post Office Grand Central",
+    "type": "post_office",
+    "latitude": 40.752262,
+    "longitude": -73.977684
+  },
+  {
+    "name": "Post Office Tribeca",
+    "type": "post_office",
+    "latitude": 40.718456,
+    "longitude": -74.008123
+  },
+  {
+    "name": "Manhattan DMV Center",
+    "type": "dmv",
+    "latitude": 40.753964,
+    "longitude": -73.981944
+  },
+  {
+    "name": "NYC Community Garden Ave C",
+    "type": "garden",
+    "latitude": 40.724909,
+    "longitude": -73.977701
+  },
+  {
+    "name": "Columbia University",
+    "type": "university",
+    "latitude": 40.807536,
+    "longitude": -73.962573
+  },
+  {
+    "name": "NYU",
+    "type": "university",
+    "latitude": 40.729513,
+    "longitude": -73.996461
+  },
+  {
+    "name": "Fordham University Lincoln Center",
+    "type": "university",
+    "latitude": 40.772723,
+    "longitude": -73.984491
+  },
+  {
+    "name": "Pace University",
+    "type": "university",
+    "latitude": 40.711001,
+    "longitude": -74.005668
+  },
+  {
+    "name": "CUNY Graduate Center",
+    "type": "university",
+    "latitude": 40.749049,
+    "longitude": -73.984469
+  },
+  {
+    "name": "Chase Bank Midtown",
+    "type": "bank",
+    "latitude": 40.754321,
+    "longitude": -73.978654
+  },
+  {
+    "name": "Bank of America Union Square",
+    "type": "bank",
+    "latitude": 40.736789,
+    "longitude": -73.990123
+  },
+  {
+    "name": "Wells Fargo Upper East",
+    "type": "bank",
+    "latitude": 40.773456,
+    "longitude": -73.962789
+  },
+  {
+    "name": "Starbucks Times Square",
+    "type": "cafe",
+    "latitude": 40.758901,
+    "longitude": -73.985234
+  },
+  {
+    "name": "Joe Coffee Union Square",
+    "type": "cafe",
+    "latitude": 40.736234,
+    "longitude": -73.991567
+  },
+  {
+    "name": "Blue Bottle Chelsea",
+    "type": "cafe",
+    "latitude": 40.744123,
+    "longitude": -74.002456
+  },
+  {
+    "name": "Brooklyn Navy Yard",
+    "type": "industrial_complex",
+    "latitude": 40.700291,
+    "longitude": -73.972573
+  },
+  {
+    "name": "Con Edison Waterside Generating Station",
+    "type": "power_plant",
+    "latitude": 40.746486,
+    "longitude": -73.970817
+  },
+  {
+    "name": "Hudson Yards Rail Yard",
+    "type": "rail_yard",
+    "latitude": 40.755774,
+    "longitude": -74.002222
+  },
+  {
+    "name": "NYC Department of Sanitation Garage",
+    "type": "sanitation_facility",
+    "latitude": 40.78414,
+    "longitude": -73.969326
+  },
+  {
+    "name": "Dept of Sanitation Garage - W 57",
+    "type": "sanitation_facility",
+    "latitude": 40.770232,
+    "longitude": -73.989552
+  },
+  {
+    "name": "Manhattan Detention Complex",
+    "type": "jail",
+    "latitude": 40.714567,
+    "longitude": -74.006789
+  },
+  {
+    "name": "NYC Correctional Facility",
+    "type": "prison",
+    "latitude": 40.708234,
+    "longitude": -74.012456
+  },
+  {
+    "name": "Federal Detention Center",
+    "type": "prison",
+    "latitude": 40.719876,
+    "longitude": -74.008123
+  },
+  {
+    "name": "Manhattan Criminal Court Holding",
+    "type": "jail",
+    "latitude": 40.715432,
+    "longitude": -74.002567
+  },
+  {
+    "name": "Hudson River Waste Transfer Station",
+    "type": "waste_facility",
+    "latitude": 40.742345,
+    "longitude": -74.018901
+  },
+  {
+    "name": "East Side Waste Processing",
+    "type": "waste_facility",
+    "latitude": 40.728567,
+    "longitude": -73.978234
+  },
+  {
+    "name": "Manhattan Recycling Center",
+    "type": "waste_facility",
+    "latitude": 40.735678,
+    "longitude": -73.992345
+  },
+  {
+    "name": "Toxic Waste Storage Facility",
+    "type": "hazardous_waste",
+    "latitude": 40.726789,
+    "longitude": -74.015432
+  },
+  {
+    "name": "Chemical Processing Plant",
+    "type": "chemical_plant",
+    "latitude": 40.718901,
+    "longitude": -74.011234
+  },
+  {
+    "name": "Industrial Waste Incinerator",
+    "type": "incinerator",
+    "latitude": 40.731234,
+    "longitude": -74.00789
+  },
+  {
+    "name": "Manhattan Morgue",
+    "type": "morgue",
+    "latitude": 40.723456,
+    "longitude": -73.985678
+  },
+  {
+    "name": "City Morgue Annex",
+    "type": "morgue",
+    "latitude": 40.716789,
+    "longitude": -74.003456
+  },
+  {
+    "name": "Adult Entertainment District",
+    "type": "adult_entertainment",
+    "latitude": 40.755432,
+    "longitude": -73.987654
+  },
+  {
+    "name": "Strip Club Row",
+    "type": "adult_entertainment",
+    "latitude": 40.751234,
+    "longitude": -73.991876
+  },
+  {
+    "name": "Pawn Shop Alley",
+    "type": "pawn_shop",
+    "latitude": 40.719876,
+    "longitude": -73.995432
+  },
+  {
+    "name": "Check Cashing Center",
+    "type": "check_cashing",
+    "latitude": 40.724567,
+    "longitude": -73.988901
+  },
+  {
+    "name": "Payday Loans Manhattan",
+    "type": "payday_loans",
+    "latitude": 40.729432,
+    "longitude": -73.982567
+  },
+  {
+    "name": "Homeless Shelter Downtown",
+    "type": "homeless_shelter",
+    "latitude": 40.721345,
+    "longitude": -74.001234
+  },
+  {
+    "name": "Emergency Housing Facility",
+    "type": "homeless_shelter",
+    "latitude": 40.736789,
+    "longitude": -73.994567
+  },
+  {
+    "name": "Substance Abuse Treatment",
+    "type": "rehab_center",
+    "latitude": 40.727654,
+    "longitude": -73.98789
+  },
+  {
+    "name": "Methadone Clinic",
+    "type": "methadone_clinic",
+    "latitude": 40.732109,
+    "longitude": -73.991234
+  },
+  {
+    "name": "Needle Exchange Program",
+    "type": "needle_exchange",
+    "latitude": 40.718765,
+    "longitude": -73.996543
+  },
+  {
+    "name": "Psychiatric Emergency Ward",
+    "type": "psychiatric_facility",
+    "latitude": 40.725432,
+    "longitude": -73.983456
+  },
+  {
+    "name": "Manhattan Landfill Site",
+    "type": "landfill",
+    "latitude": 40.706789,
+    "longitude": -74.016789
+  },
+  {
+    "name": "Construction Debris Dump",
+    "type": "dump_site",
+    "latitude": 40.713456,
+    "longitude": -74.009876
+  },
+  {
+    "name": "Industrial Noise Source",
+    "type": "noise_pollution",
+    "latitude": 40.739876,
+    "longitude": -74.006543
+  },
+  {
+    "name": "Highway Overpass Noise",
+    "type": "noise_pollution",
+    "latitude": 40.746789,
+    "longitude": -73.995432
+  },
+  {
+    "name": "Air Pollution Monitoring Station",
+    "type": "pollution_monitor",
+    "latitude": 40.721876,
+    "longitude": -73.987654
+  },
+  {
+    "name": "Sewage Overflow Point",
+    "type": "sewage_overflow",
+    "latitude": 40.715678,
+    "longitude": -74.013245
+  },
+  {
+    "name": "Contaminated Soil Site",
+    "type": "contaminated_site",
+    "latitude": 40.729765,
+    "longitude": -74.002134
+  },
+  {
+    "name": "Abandoned Building Complex",
+    "type": "abandoned_building",
+    "latitude": 40.717432,
+    "longitude": -73.994876
+  },
+  {
+    "name": "Drug Activity Hotspot",
+    "type": "crime_hotspot",
+    "latitude": 40.724321,
+    "longitude": -73.989654
+  },
+  {
+    "name": "High Crime Intersection",
+    "type": "crime_hotspot",
+    "latitude": 40.731987,
+    "longitude": -73.985432
+  },
+  {
+    "name": "Funeral Home District",
+    "type": "funeral_home",
+    "latitude": 40.728654,
+    "longitude": -73.991876
+  },
+  {
+    "name": "Crematorium Facility",
+    "type": "crematorium",
+    "latitude": 40.720987,
+    "longitude": -74.005432
+  }
+]

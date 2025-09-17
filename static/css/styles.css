@@ -1,0 +1,389 @@
+/* =========================================================
+   VARIABLES
+   ========================================================= */
+:root {
+  --color-primary:    #ffcbbb;
+  --color-secondary:  #baddff;
+  --color-highlight:  #bafff5;
+  --color-lowlight:   #496580;
+
+  --font-size:        40px;
+  --font-size-smaller:30px;
+
+  --ui-margins:       1% 0 1% 0;
+  --rounded-corners:  15px;
+}
+
+/* =========================================================
+   GLOBAL / RESET
+   ========================================================= */
+html, body {
+  width: 100%;            /* avoid 100vw scrollbar creep */
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;     /* horizontal overflow guard */
+  min-width: 700px;
+  font-size: var(--font-size);
+  background-color: var(--color-primary);
+}
+
+/* Let flex children shrink when space is tight */
+.main-panel > *,
+.map-panel > *,
+.data-panel > *,
+.elements-panel,
+.preference-panel {
+  min-width: 0;
+  min-height: 0;
+}
+
+/* =========================================================
+   LAYOUT
+   ========================================================= */
+.main-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.map-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+
+.map-containter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.display-panel {
+  width: 100%;
+  height: 15%;
+  overflow: auto;
+  align-items: center;
+  background-color: var(--color-primary);
+}
+
+.display-panel-text,
+.score-row {
+  margin: 0;
+  font-size: var(--font-size-smaller);
+}
+
+.data-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--color-primary);
+}
+
+/* =========================================================
+   PANELS (LIST / PREFERENCES / CONTROLS)
+   ========================================================= */
+.elements-panel,
+.preference-panel {
+  display: flex;
+  flex-direction: column;
+
+  /* Fill remaining space above the sub-panel */
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none;
+  overflow-y: auto;
+
+  width: 100%;
+  margin: var(--ui-margins);
+}
+
+.sub-data-panel {
+  display: flex;
+  flex-direction: column;
+
+  flex: 0 0 auto;
+  overflow: visible;
+
+  width: 100%;
+  height: fit-content;
+}
+
+/* =========================================================
+   COMPONENTS
+   ========================================================= */
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: fit-content;
+  margin: 5px 0;
+
+  border-radius: var(--rounded-corners);
+  background-color: var(--color-secondary);
+}
+
+.preference-bar-button-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 100%;
+}
+
+.preference-bar-btn {
+  width: 33.3%;
+  border: none;
+  padding: unset;
+  display: flex;
+  justify-content: center;
+  background-color: unset;
+}
+
+.bar-label { margin: 0; }
+
+.preference-bar-label,
+.element-bar-label {
+  width: 75%;
+  height: fit-content;
+  text-align: center;
+}
+
+.bar-icon { max-width: 75%; min-width: 40%; }
+
+.control-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+}
+
+.stats-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 20%;
+  height: 100%;
+
+  border-radius: var(--rounded-corners);
+  background-color: var(--color-secondary);
+}
+
+.stat-label { text-align: center; }
+
+.input-panel {
+  display: flex;
+  flex-direction: column;
+  width: 66.6%;
+  height: fit-content;
+}
+
+.lat-long-input-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+}
+
+.type-1-input-panel,
+.type-2-input-panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 50%;
+  margin: var(--ui-margins);
+}
+
+.type-2-input-panel { max-height: 100%; }
+
+.rad-pref-input-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+}
+
+.gen-button-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+  height: 100%;
+  min-height: fit-content;
+}
+
+.value-input {
+  width: 95%;
+  text-align: center;
+  font-size: var(--font-size);
+}
+
+.full-btn {
+  height: 90%;
+  width: 90%;
+  min-height: fit-content;
+
+  font-size: var(--font-size);
+  border: 0;
+  padding: 0;
+
+  border-radius: var(--rounded-corners);
+  background-color: var(--color-secondary);
+}
+
+/* =========================================================
+   UTILITIES
+   ========================================================= */
+.hidden   { display: none; }
+.highlight{
+  border-style: solid;
+  background-color: var(--color-lowlight);
+}
+.on {
+  color: white;
+  background-color: var(--color-lowlight);
+}
+
+/* Hover affordances */
+button:hover,
+.stat-card:hover,
+.bar:hover {
+  background-color: var(--color-highlight);
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media screen and (max-width: 1600px) {
+  .main-panel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map-panel {
+    width: 100%;
+    height: 50%;
+  }
+
+  .data-panel {
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .elements-panel,
+  .preference-panel {
+    flex: 1 1 50%;
+    min-height: 0;
+    max-height: none;
+    overflow-y: auto;
+    width: 50%;
+  }
+  
+  .sub-data-panel {
+    flex: 1 0 50%;
+    min-height: 0;
+    overflow: hidden;
+    width: 50%;
+  }
+
+  .preference-bar { flex-direction: column-reverse; }
+
+  .preference-bar-button-panel {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .preference-bar-label { width: 100%; height: fit-content; }
+
+  .bar-icon { min-width: 30%; }
+
+  .control-panel {
+    flex-direction: column;
+    height: 45%;
+  }
+
+  .stats-panel { 
+    height: fit-content; 
+    flex-direction: column;
+  }
+
+  .stat-card {
+    width: 100%;
+    min-height: 14%;
+    flex-direction: row;
+  }
+
+  .input-panel {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lat-long-input-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .type-1-input-panel {
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+  }
+
+  .rad-pref-input-panel {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gen-button-panel {
+    width: 100%;
+    min-height: 4vh;
+  }
+
+  .value-input { width: 60%; }
+}
+
+@media screen and (max-width: 700px) {
+  body,
+  .value-input,
+  .full-btn,
+  .display-panel-text,
+  .score-row {
+    font-size: var(--font-size-smaller);
+  }
+}

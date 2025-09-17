@@ -1,0 +1,509 @@
+[
+  {
+    "type": "polygon",
+    "aspect": "air_quality_index",
+    "coordinates": [
+      [-74.02, 40.8],
+      [-73.9801, 40.8],
+      [-73.9801, 40.66],
+      [-74.02, 40.66],
+      [-74.02, 40.8]
+    ],
+    "air_quality_index": 22,
+    "zone_type": "west_industrial"
+  },
+  {
+    "type": "polygon",
+    "aspect": "air_quality_index",
+    "coordinates": [
+      [-73.97999999999999, 40.8],
+      [-73.9401, 40.8],
+      [-73.9401, 40.66],
+      [-73.97999999999999, 40.66],
+      [-73.97999999999999, 40.8]
+    ],
+    "air_quality_index": 11,
+    "zone_type": "west_central"
+  },
+  {
+    "type": "polygon",
+    "aspect": "air_quality_index",
+    "coordinates": [
+      [-73.94, 40.8],
+      [-73.9001, 40.8],
+      [-73.9001, 40.66],
+      [-73.94, 40.66],
+      [-73.94, 40.8]
+    ],
+    "air_quality_index": 14,
+    "zone_type": "central"
+  },
+  {
+    "type": "polygon",
+    "aspect": "air_quality_index",
+    "coordinates": [
+      [-73.89999999999999, 40.8],
+      [-73.8601, 40.8],
+      [-73.8601, 40.66],
+      [-73.89999999999999, 40.66],
+      [-73.89999999999999, 40.8]
+    ],
+    "air_quality_index": 16,
+    "zone_type": "east_central"
+  },
+  {
+    "type": "polygon",
+    "aspect": "air_quality_index",
+    "coordinates": [
+      [-73.86, 40.8],
+      [-73.8201, 40.8],
+      [-73.8201, 40.66],
+      [-73.86, 40.66],
+      [-73.86, 40.8]
+    ],
+    "air_quality_index": 19,
+    "zone_type": "east_side"
+  },
+  {
+    "type": "polygon",
+    "aspect": "crime_rate",
+    "coordinates": [
+      [-74.02, 40.729899999999994],
+      [-73.95343333333334, 40.729899999999994],
+      [-73.95343333333334, 40.66],
+      [-74.02, 40.66],
+      [-74.02, 40.729899999999994]
+    ],
+    "crime_rate": 5.8,
+    "zone_type": "upper_west"
+  },
+  {
+    "type": "polygon",
+    "aspect": "crime_rate",
+    "coordinates": [
+      [-73.95333333333333, 40.729899999999994],
+      [-73.88676666666666, 40.729899999999994],
+      [-73.88676666666666, 40.66],
+      [-73.95333333333333, 40.66],
+      [-73.95333333333333, 40.729899999999994]
+    ],
+    "crime_rate": 3.4,
+    "zone_type": "upper_central"
+  },
+  {
+    "type": "polygon",
+    "aspect": "crime_rate",
+    "coordinates": [
+      [-73.88666666666666, 40.729899999999994],
+      [-73.8201, 40.729899999999994],
+      [-73.8201, 40.66],
+      [-73.88666666666666, 40.66],
+      [-73.88666666666666, 40.729899999999994]
+    ],
+    "crime_rate": 4.2,
+    "zone_type": "upper_east"
+  },
+  {
+    "type": "polygon",
+    "aspect": "crime_rate",
+    "coordinates": [
+      [-74.02, 40.799899999999994],
+      [-73.95343333333334, 40.799899999999994],
+      [-73.95343333333334, 40.73],
+      [-74.02, 40.73],
+      [-74.02, 40.799899999999994]
+    ],
+    "crime_rate": 5.1,
+    "zone_type": "lower_west"
+  },
+  {
+    "type": "polygon",
+    "aspect": "crime_rate",
+    "coordinates": [
+      [-73.95333333333333, 40.799899999999994],
+      [-73.88676666666666, 40.799899999999994],
+      [-73.88676666666666, 40.73],
+      [-73.95333333333333, 40.73],
+      [-73.95333333333333, 40.799899999999994]
+    ],
+    "crime_rate": 6.7,
+    "zone_type": "lower_central"
+  },
+  {
+    "type": "polygon",
+    "aspect": "crime_rate",
+    "coordinates": [
+      [-73.88666666666666, 40.799899999999994],
+      [-73.8201, 40.799899999999994],
+      [-73.8201, 40.73],
+      [-73.88666666666666, 40.73],
+      [-73.88666666666666, 40.799899999999994]
+    ],
+    "crime_rate": 2.8,
+    "zone_type": "lower_east"
+  },
+  {
+    "type": "polygon",
+    "aspect": "median_rent",
+    "coordinates": [
+      [-74.01979999999999, 40.73009999999999],
+      [-73.95323333333333, 40.73009999999999],
+      [-73.95323333333333, 40.660199999999996],
+      [-74.01979999999999, 40.660199999999996],
+      [-74.01979999999999, 40.73009999999999]
+    ],
+    "median_rent": 5800,
+    "zone_type": "upper_west_luxury"
+  },
+  {
+    "type": "polygon",
+    "aspect": "median_rent",
+    "coordinates": [
+      [-73.95313333333333, 40.73009999999999],
+      [-73.88656666666665, 40.73009999999999],
+      [-73.88656666666665, 40.660199999999996],
+      [-73.95313333333333, 40.660199999999996],
+      [-73.95313333333333, 40.73009999999999]
+    ],
+    "median_rent": 5200,
+    "zone_type": "upper_central_prime"
+  },
+  {
+    "type": "polygon",
+    "aspect": "median_rent",
+    "coordinates": [
+      [-73.88646666666665, 40.73009999999999],
+      [-73.81989999999999, 40.73009999999999],
+      [-73.81989999999999, 40.660199999999996],
+      [-73.88646666666665, 40.660199999999996],
+      [-73.88646666666665, 40.73009999999999]
+    ],
+    "median_rent": 4800,
+    "zone_type": "upper_east_premium"
+  },
+  {
+    "type": "polygon",
+    "aspect": "median_rent",
+    "coordinates": [
+      [-74.01979999999999, 40.80009999999999],
+      [-73.95323333333333, 40.80009999999999],
+      [-73.95323333333333, 40.730199999999996],
+      [-74.01979999999999, 40.730199999999996],
+      [-74.01979999999999, 40.80009999999999]
+    ],
+    "median_rent": 4600,
+    "zone_type": "lower_west_tribeca"
+  },
+  {
+    "type": "polygon",
+    "aspect": "median_rent",
+    "coordinates": [
+      [-73.95313333333333, 40.80009999999999],
+      [-73.88656666666665, 40.80009999999999],
+      [-73.88656666666665, 40.730199999999996],
+      [-73.95313333333333, 40.730199999999996],
+      [-73.95313333333333, 40.80009999999999]
+    ],
+    "median_rent": 4200,
+    "zone_type": "lower_central_soho"
+  },
+  {
+    "type": "polygon",
+    "aspect": "median_rent",
+    "coordinates": [
+      [-73.88646666666665, 40.80009999999999],
+      [-73.81989999999999, 40.80009999999999],
+      [-73.81989999999999, 40.730199999999996],
+      [-73.88646666666665, 40.730199999999996],
+      [-73.88646666666665, 40.80009999999999]
+    ],
+    "median_rent": 3400,
+    "zone_type": "lower_east_affordable"
+  },
+  {
+    "type": "polygon",
+    "aspect": "school_quality",
+    "coordinates": [
+      [-74.02, 40.729899999999994],
+      [-73.92009999999999, 40.729899999999994],
+      [-73.92009999999999, 40.66],
+      [-74.02, 40.66],
+      [-74.02, 40.729899999999994]
+    ],
+    "school_quality": 9.1,
+    "zone_type": "upper_west_district"
+  },
+  {
+    "type": "polygon",
+    "aspect": "school_quality",
+    "coordinates": [
+      [-73.91999999999999, 40.729899999999994],
+      [-73.8201, 40.729899999999994],
+      [-73.8201, 40.66],
+      [-73.91999999999999, 40.66],
+      [-73.91999999999999, 40.729899999999994]
+    ],
+    "school_quality": 8.7,
+    "zone_type": "upper_east_district"
+  },
+  {
+    "type": "polygon",
+    "aspect": "school_quality",
+    "coordinates": [
+      [-74.02, 40.799899999999994],
+      [-73.92009999999999, 40.799899999999994],
+      [-73.92009999999999, 40.73],
+      [-74.02, 40.73],
+      [-74.02, 40.799899999999994]
+    ],
+    "school_quality": 7.8,
+    "zone_type": "lower_west_district"
+  },
+  {
+    "type": "polygon",
+    "aspect": "school_quality",
+    "coordinates": [
+      [-73.91999999999999, 40.799899999999994],
+      [-73.8201, 40.799899999999994],
+      [-73.8201, 40.73],
+      [-73.91999999999999, 40.73],
+      [-73.91999999999999, 40.799899999999994]
+    ],
+    "school_quality": 6.4,
+    "zone_type": "lower_east_district"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.99, 40.776],
+      [-73.984, 40.776],
+      [-73.984, 40.77],
+      [-73.99, 40.77],
+      [-73.99, 40.776]
+    ],
+    "transit_distance": 0.08,
+    "zone_type": "grand_central_hub"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.99, 40.756],
+      [-73.984, 40.756],
+      [-73.984, 40.75],
+      [-73.99, 40.75],
+      [-73.99, 40.756]
+    ],
+    "transit_distance": 0.05,
+    "zone_type": "times_square_hub"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.99, 40.736],
+      [-73.984, 40.736],
+      [-73.984, 40.73],
+      [-73.99, 40.73],
+      [-73.99, 40.736]
+    ],
+    "transit_distance": 0.12,
+    "zone_type": "union_square_hub"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-74.01, 40.716],
+      [-74.004, 40.716],
+      [-74.004, 40.71],
+      [-74.01, 40.71],
+      [-74.01, 40.716]
+    ],
+    "transit_distance": 0.18,
+    "zone_type": "wall_street_hub"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.93, 40.776],
+      [-73.924, 40.776],
+      [-73.924, 40.77],
+      [-73.93, 40.77],
+      [-73.93, 40.776]
+    ],
+    "transit_distance": 0.32,
+    "zone_type": "upper_east_moderate"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.85, 40.736],
+      [-73.844, 40.736],
+      [-73.844, 40.73],
+      [-73.85, 40.73],
+      [-73.85, 40.736]
+    ],
+    "transit_distance": 0.45,
+    "zone_type": "east_side_distant"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.95, 40.79],
+      [-73.944, 40.79],
+      [-73.944, 40.784],
+      [-73.95, 40.784],
+      [-73.95, 40.79]
+    ],
+    "transit_distance": 0.18,
+    "zone_type": "columbus_circle_hub"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.91, 40.76],
+      [-73.904, 40.76],
+      [-73.904, 40.754],
+      [-73.91, 40.754],
+      [-73.91, 40.76]
+    ],
+    "transit_distance": 0.25,
+    "zone_type": "lexington_59th"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-74.0, 40.75],
+      [-73.994, 40.75],
+      [-73.994, 40.744],
+      [-74.0, 40.744],
+      [-74.0, 40.75]
+    ],
+    "transit_distance": 0.15,
+    "zone_type": "penn_station_hub"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.97, 40.73],
+      [-73.964, 40.73],
+      [-73.964, 40.724],
+      [-73.97, 40.724],
+      [-73.97, 40.73]
+    ],
+    "transit_distance": 0.2,
+    "zone_type": "14th_street_union_sq"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.89, 40.72],
+      [-73.884, 40.72],
+      [-73.884, 40.714],
+      [-73.89, 40.714],
+      [-73.89, 40.72]
+    ],
+    "transit_distance": 0.35,
+    "zone_type": "astor_place"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.95, 40.71],
+      [-73.944, 40.71],
+      [-73.944, 40.704],
+      [-73.95, 40.704],
+      [-73.95, 40.71]
+    ],
+    "transit_distance": 0.28,
+    "zone_type": "canal_street"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.87, 40.69],
+      [-73.864, 40.69],
+      [-73.864, 40.684],
+      [-73.87, 40.684],
+      [-73.87, 40.69]
+    ],
+    "transit_distance": 0.42,
+    "zone_type": "delancey_essex"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-74.01, 40.73],
+      [-74.004, 40.73],
+      [-74.004, 40.724],
+      [-74.01, 40.724],
+      [-74.01, 40.73]
+    ],
+    "transit_distance": 0.22,
+    "zone_type": "chelsea_23rd"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.83, 40.75],
+      [-73.824, 40.75],
+      [-73.824, 40.744],
+      [-73.83, 40.744],
+      [-73.83, 40.75]
+    ],
+    "transit_distance": 0.38,
+    "zone_type": "east_side_77th"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.92, 40.78],
+      [-73.914, 40.78],
+      [-73.914, 40.774],
+      [-73.92, 40.774],
+      [-73.92, 40.78]
+    ],
+    "transit_distance": 0.3,
+    "zone_type": "upper_west_86th"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-73.96, 40.72],
+      [-73.954, 40.72],
+      [-73.954, 40.714],
+      [-73.96, 40.714],
+      [-73.96, 40.72]
+    ],
+    "transit_distance": 0.25,
+    "zone_type": "broadway_lafayette"
+  },
+  {
+    "type": "polygon",
+    "aspect": "transit_access",
+    "coordinates": [
+      [-74.0, 40.69],
+      [-73.994, 40.69],
+      [-73.994, 40.684],
+      [-74.0, 40.684],
+      [-74.0, 40.69]
+    ],
+    "transit_distance": 0.33,
+    "zone_type": "chambers_street"
+  }
+]
